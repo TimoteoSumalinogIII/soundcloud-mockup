@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/soundcloud-mockup/static/css/main.35b0568e.chunk.css",
+    "main.js": "/soundcloud-mockup/static/js/main.55acb7a9.chunk.js",
+    "main.js.map": "/soundcloud-mockup/static/js/main.55acb7a9.chunk.js.map",
+    "runtime-main.js": "/soundcloud-mockup/static/js/runtime-main.30349492.js",
+    "runtime-main.js.map": "/soundcloud-mockup/static/js/runtime-main.30349492.js.map",
+    "static/js/2.cd6819b5.chunk.js": "/soundcloud-mockup/static/js/2.cd6819b5.chunk.js",
+    "static/js/2.cd6819b5.chunk.js.map": "/soundcloud-mockup/static/js/2.cd6819b5.chunk.js.map",
+    "index.html": "/soundcloud-mockup/index.html",
+    "precache-manifest.12c534ca8dafff79380a0fb7aae7b518.js": "/soundcloud-mockup/precache-manifest.12c534ca8dafff79380a0fb7aae7b518.js",
+    "service-worker.js": "/soundcloud-mockup/service-worker.js",
+    "static/css/main.35b0568e.chunk.css.map": "/soundcloud-mockup/static/css/main.35b0568e.chunk.css.map",
+    "static/js/2.cd6819b5.chunk.js.LICENSE.txt": "/soundcloud-mockup/static/js/2.cd6819b5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30349492.js",
+    "static/js/2.cd6819b5.chunk.js",
+    "static/css/main.35b0568e.chunk.css",
+    "static/js/main.55acb7a9.chunk.js"
+  ]
+}
