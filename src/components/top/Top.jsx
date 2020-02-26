@@ -80,21 +80,21 @@ class Top extends Component {
                         </div>
 
                         <div className="row">
-                            <Track /> 
-                            <Track />
-                            <Track /> 
-                            <Track />
-                            <Track /> 
-                            <Track />
+                            <Track content={0} /> 
+                            <Track content={1}/>
+                            <Track content={2}/> 
+                            <Track content={3}/>
+                            <Track content={4}/> 
+                            <Track content={5}/>
                         </div>
 
                         <div className="row">
-                            <Track /> 
-                            <Track />
-                            <Track /> 
-                            <Track />
-                            <Track /> 
-                            <Track />
+                            <Track content={6}/> 
+                            <Track content={7}/>
+                            <Track content={8}/> 
+                            <Track content={9}/>
+                            <Track content={10}/> 
+                            <Track content={11}/>
                         </div>
 
                         <div className="row">
