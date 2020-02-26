@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './top.css'
+import '../../animate.css'
 import Track from './Track';
 
 class Top extends Component {
@@ -13,7 +14,7 @@ class Top extends Component {
                    <div className="row">
                         <div className="ten wide column">
                             <i className="large soundcloud icon ml-5 mt-3" style={{color: "white", fontSize: 50, position: "relative"}}></i>
-                            <h2 style={{position: "relative", color: "white", left: 110, bottom: 60}}>Soundcloud</h2>
+                            <h2 style={{position: "relative", color: "white", left: 110, bottom: 60}} className="animated fast infinite pulse delay-1s" >Soundcloud</h2>
                        </div>
                         
                         <div className="right floated ten wide column ">
@@ -25,7 +26,7 @@ class Top extends Component {
 
                     
                 </div>
-                <div style={{position: "relative"}}id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="3000">
+                <div style={{position: "relative"}}id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="2500">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -35,7 +36,7 @@ class Top extends Component {
                         <div className="carousel-item active">
                             <img className="d-block w-100" src="https://a-v2.sndcdn.com/assets/images/hp_image_creator_slide-db400e2f.jpg" alt="First slide"/>
                             <div class="carousel-caption d-none d-md-block" style={{bottom: 90}}>
-                                <h2 style={{fontSize: 36}}>What's next in music is first on SoundCloud</h2>
+                                <h2  class="animated infinite slow bounce delay-1s" style={{fontSize: 36}}>What's next in music is first on SoundCloud</h2>
                                 <h3 style={{fontSize: 18, marginTop: 0, marginBottom: 0}}>Upload your first track and begin your journey. SoundCloud gives</h3>
                                 <h3 style={{fontSize: 18, marginTop: 0, marginBottom: 0}}>you space to create, find your fans, and connect with other</h3>
                                 <h3 style={{fontSize: 18, marginTop: 0, marginBottom: 20}}>artist</h3>
@@ -45,7 +46,7 @@ class Top extends Component {
                         <div className="carousel-item">
                             <img className="d-block w-100" src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg" alt="Second slide"/>
                             <div class="carousel-caption d-none d-md-block" style={{bottom: 90}}>
-                                <h2 style={{fontSize: 36}}>Discover more with SoundCloud Go+</h2>
+                                <h2  class="animated infinite slow bounce delay-1s" style={{fontSize: 36}}>Discover more with SoundCloud Go+</h2>
                                 <h3 style={{fontSize: 18, marginTop: 0, marginBottom: 0}}>SoundCloud Go+ lets you listen offline, ad-free, with 150</h3>
                                 <h3 style={{fontSize: 18, marginTop: 0, marginBottom: 20}}>million tracks - and growing.</h3>
                                 <button className="ui large basic inverted button">Learn more</button>
