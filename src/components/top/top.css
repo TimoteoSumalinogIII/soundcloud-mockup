@@ -1,0 +1,9 @@
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+  }
+
+.search {
+    border-radius: 0%;
+}
